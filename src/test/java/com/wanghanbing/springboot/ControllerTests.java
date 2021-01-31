@@ -33,4 +33,5 @@ public class ControllerTests {
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("hello word")));
     }
+
 }
